@@ -1,3 +1,29 @@
-body {
-    background-color: aqua;
-} 
+:root{
+    --color-iris: #4d5ae5;
+	--color-ocean: #404bbf;
+	--color-navy-blue: #2e2f42;
+	--color-green: #31d0aa;
+	--color-slate: #434455;
+	--color-light-slate: #8e8f99;
+	--color-cornflower: #e7e9fc;
+	--color-cloud: #f4f4fd;
+	--color-navy-blue-modal: #2e2f42;
+	--color-grey: #2e2f42;
+}
+body{
+    font-family:sans-serif ;
+
+}
+/*Header section */
+.adress-mail: hover;
+.adress-mail: :focus;
+
+/* Hero image section */
+/* Sectoin1 */
+/* Section2 */
+/* Section3 */
+/*  Filters section  */
+/* Row 1 section */
+/* Row 2 section */
+/* Row 3 section  */
+/* footer section */
