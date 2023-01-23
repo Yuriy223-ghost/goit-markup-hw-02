@@ -1,4 +1,6 @@
 :root{
+    --primary-font:'Roboto', sans-serif;
+    --secondary-font: "Raleway", sans-serif;
     --color-iris: #4d5ae5;
 	--color-ocean: #404bbf;
 	--color-navy-blue: #2e2f42;
@@ -11,19 +13,36 @@
 	--color-grey: #2e2f42;
 }
 body{
-    font-family:sans-serif ;
+    font-family:var(--primary-font)
 
 }
 /*Header section */
-.adress-mail: hover;
-.adress-mail: :focus;
+.adress-contacts{
+    color: var(--color-slate); 
+    font-size: 16px;
+}
+.adress-contacts:hover, .adress-contacts:focus{
+    color: var(--color-iris);
+}
 
 /* Hero image section */
+.hero-section {
+    background: var(--color-grey);
+}
+.btn{
+    cursor: pointer;
+}
 /* Sectoin1 */
 /* Section2 */
 /* Section3 */
 /*  Filters section  */
+.filters{
+
+}
 /* Row 1 section */
 /* Row 2 section */
 /* Row 3 section  */
 /* footer section */
+.footer-contacts{
+
+}
