@@ -36,13 +36,35 @@ body{
 /* Section2 */
 /* Section3 */
 /*  Filters section  */
-.filters {
-
+.filters-all {
+background: var(--color-ocean);
+font-family:var(--primary-font);
+}
+.filters-website {
+    background: var(--color-cloud);
+    font-family:var(--primary-font);
+}
+.filters-app {
+    background: var(--color-cloud);
+    font-family:var(--primary-font);
+}
+.filters-design {
+    background: var(--color-cloud);
+    font-family:var(--primary-font); 
+}
+.filters-marceting {
+    background: var(--color-cloud);
+    font-family:var(--primary-font);
 }
 /* Row 1 section */
 /* Row 2 section */
 /* Row 3 section  */
 /* footer section */
 .footer-contacts {
-
+    color: var(--color-slate);
+    font-size: 16px;
+    background: var(--color-grey);
+}
+.footer-contacts:hover, .footer-contacts:focus {
+    color: var(--color-iris);
 }
