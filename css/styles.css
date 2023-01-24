@@ -106,13 +106,24 @@ body {
 .benefits-item {
 }
 .benefits-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--color-navy-blue);
 }
 .benefits-txt {
+  color: var(--color-slate);
 }
 /* Section2 */
 .features {
 }
 .features-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
 }
 .features-list {
 }
@@ -122,8 +133,15 @@ body {
 }
 /* Section3 */
 .team {
+  background: var(--color-cloud);
 }
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
 }
 .team-list {
 }
@@ -132,8 +150,15 @@ body {
 .team-img {
 }
 .team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  color: var(--color-navy-blue);
 }
 .team-position {
+  text-align: center;
+  color: var(--color-slate);
 }
 /* Portfolio section  */
 .portfolio {
@@ -161,16 +186,31 @@ body {
 .projects-img {
 }
 .projects-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--color-navy-blue);
 }
 .projects-txt {
+  color: var(--color-slate);
 }
 
 /* footer section */
 .footer {
+  background-color: var(--color-navy-blue);
 }
 .logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
 }
 .logo-light {
+  color: var(--color-cloud);
 }
 .footer-txt {
+  color: var(--color-cornflower);
 }
