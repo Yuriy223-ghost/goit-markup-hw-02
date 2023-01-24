@@ -1,82 +1,176 @@
-:root{
-    --primary-font:'Roboto', sans-serif;
-    --secondary-font: "Raleway", sans-serif;
-    --color-iris: #4d5ae5;
-	--color-ocean: #404bbf;
-	--color-navy-blue: #2e2f42;
-	--color-green: #31d0aa;
-	--color-slate: #434455;
-	--color-light-slate: #8e8f99;
-	--color-cornflower: #e7e9fc;
-	--color-cloud: #f4f4fd;
-	--color-navy-blue-modal: #2e2f42;
-	--color-grey: #2e2f42;
+:root {
+  /* Fonts */
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  /* Colors */
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
 }
-body{
-    font-family:var(--primary-font)
-
+/* Base styles */
+body {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.btn {
+  cursor: pointer;
+}
+.list {
+  list-style: none;
 }
 /*Header section */
-.adress-contacts{
-    color: var(--color-slate); 
-    font-size: 16px;
-    line-height: 24px;
+.header {
 }
-.adress-contacts:hover, .adress-contacts:focus{
-    color: var(--color-iris);
+.header-nav {
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+.logo-dark {
+  color: var(--color-navy-blue);
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  color: var(--color-navy-blue);
+}
+.header-adress {
+  font-style: normal;
+}
+.header-adress-list {
+}
+.header-adress-item {
+}
+
+.header-adress-link {
+  color: var(--color-slate);
+}
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color: var(--color-iris);
 }
 
 /* Hero image section */
 .hero-section {
-    background: var(--color-grey);
+  background: var(--color-grey);
 }
-.btn {
-    cursor: pointer;
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+
+  text-align: center;
+  color: var(--color-white);
 }
+.hero-btn {
+  background: var(--color-iris);
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--color-ocean);
+}
+
 /* Sectoin1 */
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-subtitle {
+}
+.benefits-txt {
+}
 /* Section2 */
+.features {
+}
+.features-title {
+}
+.features-list {
+}
+.features-item {
+}
+.features-img {
+}
 /* Section3 */
-/*  Filters section  */
-.filters-all {
-background: var(--color-ocean);
-font-family:var(--primary-font);
-font-size: 16px;
-line-height: 24px;
+.team {
 }
-.filters-website {
-    background: var(--color-cloud);
-    font-family:var(--primary-font);
-    font-size: 16px;
-    line-height: 24px;
+.team-title {
 }
-.filters-app {
-    background: var(--color-cloud);
-    font-family:var(--primary-font);
-    font-size: 16px;
-    line-height: 24px;
+.team-list {
 }
-.filters-design {
-    background: var(--color-cloud);
-    font-family:var(--primary-font); 
-    font-size: 16px;
-    line-height: 24px;
+.team-item {
 }
-.filters-marceting {
-    background: var(--color-cloud);
-    font-family:var(--primary-font);
-    font-size: 16px;
-    line-height: 24px;
+.team-img {
 }
-/* Row 1 section */
-/* Row 2 section */
-/* Row 3 section  */
+.team-name {
+}
+.team-position {
+}
+/* Portfolio section  */
+.portfolio {
+}
+.filters-list {
+}
+.filters-item {
+}
+.filters-btn {
+  background: var(--color-cloud);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--color-ocean);
+  color: var(--color-white);
+}
+.projects-list {
+}
+.projects-item {
+}
+.projects-img {
+}
+.projects-subtitle {
+}
+.projects-txt {
+}
+
 /* footer section */
-.footer-contacts {
-    color: var(--color-slate);
-    font-size: 16px;
-    background: var(--color-grey);
-    line-height: 24px;
+.footer {
 }
-.footer-contacts:hover, .footer-contacts:focus {
-    color: var(--color-iris);
+.logo {
+}
+.logo-light {
+}
+.footer-txt {
 }
